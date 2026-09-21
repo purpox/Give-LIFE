@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cnj8845s75fnp"]
+
+[ext_resource type="Script" uid="uid://iqrmm33dxvui" path="res://Scripts/Animatables/GL_Animatronic.gd" id="1_irtia"]
+[ext_resource type="PackedScene" uid="uid://bg3dbc33q540" path="res://Mods/PRPXS Workshop/Custom Assets/Models/Animatronics/faceomatic.glb" id="2_10qwe"]
+[ext_resource type="Texture2D" uid="uid://cpkv6ugyuho2w" path="res://Mods/PRPXS Workshop/Custom Assets/Textures/Faceomatic/theatlasgenerator-4x4-1024px.png" id="2_agd4o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wrjcj"]
+size = Vector3(2.2227478, 1.8880615, 0.53564453)
+
+[node name="Faceomatic" type="Node3D" unique_id=1420673790 groups=["PRPX_FC"]]
+script = ExtResource("1_irtia")
+animParametersFileName = "Faceomatic"
+animatableIcon = ExtResource("2_agd4o")
+animatableName = "Faceomatic"
+animatableAuthors = "prpx"
+animatableColor = Color(0.7986576, 0.7411699, 0.6262652, 1)
+
+[node name="faceomatic" parent="." unique_id=446358573 instance=ExtResource("2_10qwe")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1521842063]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=298364891]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.048812866, 0.10455322, -0.021728516)
+shape = SubResource("BoxShape3D_wrjcj")

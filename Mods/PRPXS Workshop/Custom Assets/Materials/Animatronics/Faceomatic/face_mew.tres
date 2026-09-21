@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b6aih3kgbi1jl"]
+
+[ext_resource type="Shader" uid="uid://ck2i75riugn2l" path="res://Mods/PRPXS Workshop/Mod Directory/Animatables/Faceomatic.gdshader" id="1_37jkg"]
+[ext_resource type="Texture2D" uid="uid://cpkv6ugyuho2w" path="res://Mods/PRPXS Workshop/Custom Assets/Textures/Faceomatic/theatlasgenerator-4x4-1024px.png" id="2_cfh81"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_37jkg")
+shader_parameter/face_sheet = ExtResource("2_cfh81")
+shader_parameter/frame_index = 15
+shader_parameter/grid_size = Vector2(4, 4)

@@ -7,15 +7,15 @@ Space ({A}) = Jump
 Q ({Right Stick Click}) = Crouch
 Shift ({Left Stick Click}) = Sprint Speed
 E ({Right Shoulder Button}) = Toggle Flashlight
-	- (Hold) + Scroll ({DPad Up} + {DPad Down}) = Change Flashlight Size
+	- (Hold) + Scroll ({Dpad Up} + {Dpad Down}) = Change Flashlight Size
 
-Ctrl/{X} (Hold) + Scroll ({DPad Up} + {DPad Down}) = Change Camera Zoom
-Alt/{Y} (Hold) + Scroll ({DPad Up} + {DPad Down}) = Change Camera Tilt
+Ctrl/{X} (Hold) + Scroll ({D-Pad Up} + {D-Pad Down}) = Change Camera Zoom
+Alt/{Y} (Hold) + Scroll ({D-Pad Up} + {D-Pad Down}) = Change Camera Tilt
 
 R (?) = Smooth Out Movement Toggle
 	- (Hold) + Scroll = Change Smooth Amount
 
-F ({DPad Left}) = Smooth Out Camera Toggle
+F ({Dpad Down}) = Smooth Out Camera Toggle
 	- (Hold) + Scroll = Change Smooth Amount
 
 C (???) = Construction Mode

@@ -93,7 +93,32 @@ func _parse_controller_icons(raw_text: String) -> String:
 		"Right Shoulder Button": "RB",
 		"Left Shoulder Button": "LB",
 		"Joystick Left": "LstickL",
-		"Select": "Back"
+		"Select": "Back",
+
+		# D-Pad variations
+		"Dpad Up": "Dpad_Up",
+		"DPad Up": "Dpad_Up",
+		"D-Pad Up": "Dpad_Up",
+		"dpad up": "Dpad_Up",
+		"dpad_up": "Dpad_Up",
+
+		"Dpad Down": "Dpad_Down",
+		"DPad Down": "Dpad_Down",
+		"D-Pad Down": "Dpad_Down",
+		"dpad down": "Dpad_Down",
+		"dpad_down": "Dpad_Down",
+
+		"Dpad Left": "Dpad_Left",
+		"DPad Left": "Dpad_Left",
+		"D-Pad Left": "Dpad_Left",
+		"dpad left": "Dpad_Left",
+		"dpad_left": "Dpad_Left",
+
+		"Dpad Right": "Dpad_Right",
+		"DPad Right": "Dpad_Right",
+		"D-Pad Right": "Dpad_Right",
+		"dpad right": "Dpad_Right",
+		"dpad_right": "Dpad_Right"
 	}
 
 	var parsed = raw_text

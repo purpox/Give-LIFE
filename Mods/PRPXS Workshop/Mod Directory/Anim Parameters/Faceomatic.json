@@ -1,0 +1,45 @@
+{
+"1: blink": {
+	"animation": "Blink",
+	"in_speed": 3,
+	"out_speed": 4,
+	"type": "standard"
+  },
+"2: A": {
+	"_comment": "#mouth",
+	"animation": "A",
+	"in_speed": 3,
+	"out_speed": 4,
+	"type": "standard"
+  },
+"2-1: E": {
+	"animation": "E",
+	"in_speed": 3.0,
+	"out_speed": 4.0,
+	"type": "standard"
+  },
+"2-2: I": {
+	"animation": "I",
+	"in_speed": 5,
+	"out_speed": 6,
+	"type": "standard"
+  },
+"2-3: O": {
+	"animation": "O",
+	"in_speed": 5,
+	"out_speed": 6,
+	"type": "standard"
+  },
+"2-4: U": {
+	"animation": "U",
+	"in_speed": 5.5,
+	"out_speed": 6.0,
+	"type": "standard"
+  },
+"3: Silly": {
+	"animation": "silly",
+	"in_speed": 5.5,
+	"out_speed": 6.0,
+	"type": "standard"
+  }
+}
